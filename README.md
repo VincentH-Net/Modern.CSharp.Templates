@@ -1,6 +1,8 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates
 A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 12/11, .NET 8/7, Microsoft Orleans 8, Windows App SDK and Uno Platform 5.2
 
+_(Note: this repo was transferred from Applicita to VincentH-Net on March 17, 2025 to reflect who actively maintains it)_
+
 Templates:
 - **mcs-editorconfig** [doc](https://github.com/Applicita/Modern.CSharp.Templates/blob/main/Editorconfig.md)<br />
   *Settings for C# 12 code formatting, style, naming style and analysis.
