@@ -5,10 +5,10 @@
     "modern",
     "csharp",
     "C#",
-    "csharp 12",
-    "C# 12",
+    "csharp 13",
+    "C# 13",
     "Orleans",
-    "Orleans 8",
+    "Orleans 9",
     "multiservice",
     "logical service",
     "microservice",
@@ -16,9 +16,9 @@
     "pattern"
   ],
   "identity": "Modern.CSharp.Orleans.Multiservice",
-  "name": "Modern C# 12 multiservice pattern for Orleans 8",
+  "name": "Modern C# 13 multiservice pattern for Orleans 9",
   "shortName": "mcs-orleans-multiservice",
-  "description": "Solution for a single Microsoft Orleans 8 (micro)service containing one or more logical services",
+  "description": "Solution for a single Microsoft Orleans 9 (micro)service containing one or more logical services",
   "tags": {
     "language": "C#",
     "type": "solution"

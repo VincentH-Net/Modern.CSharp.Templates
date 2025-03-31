@@ -5,17 +5,17 @@
     "modern",
     "csharp",
     "C#",
-    "csharp 12",
-    "C# 12",
+    "csharp 13",
+    "C# 13",
     "Orleans",
-    "Orleans 8",
+    "Orleans 9",
     "results",
     "pattern"
   ],
   "identity": "Modern.CSharp.Orleans.Results",
-  "name": "Modern C# 12 result pattern for Orleans 8",
+  "name": "Modern C# 13 result pattern for Orleans 9",
   "shortName": "mcs-orleans-results",
-  "description": "Concise, version-tolerant result pattern implementation for Microsoft Orleans 8",
+  "description": "Concise, version-tolerant result pattern implementation for Microsoft Orleans 9",
   "tags": {
     "language": "C#",
     "type": "item"
