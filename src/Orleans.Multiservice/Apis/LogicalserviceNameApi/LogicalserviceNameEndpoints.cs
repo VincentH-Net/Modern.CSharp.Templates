@@ -4,7 +4,7 @@ namespace RootNamespacePrefix.Apis.LogicalserviceNameApi;
 
 public class LogicalserviceNameEndpoints(IClusterClient orleans) : IEndpoints
 {
-    readonly IItemsGrain itemsGrain = orleans.GetGrain<IItemsGrain>("");
+    readonly IItemsGrain itemsGrain = orleans.GetGrain<IItemsGrain>("all");
 
     public void Register(IEndpointRouteBuilder routeBuilder)
     {
