@@ -1,6 +1,6 @@
 ﻿// Version: 2.0.0 (Using https://semver.org/)
 // Updated: 2024-04-05
-// See https://github.com/Applicita/Orleans.Results for updates to this file.
+// See https://github.com/VincentH-Net/Orleans.Results for updates to this file.
 
 using System.Collections.Immutable;
 using System.Collections.ObjectModel;
