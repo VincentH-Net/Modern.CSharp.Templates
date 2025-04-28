@@ -1,6 +1,6 @@
 ﻿# Welcome to C# Markup 2 for Uno Platform
 
-This C# Markup 2 Presentation project was created with `dotnet new mcs-uno-markup2 --presentation none` (template version [`Modern.CSharp.Templates 3.0.0`](https://www.nuget.org/packages/Modern.CSharp.Templates/3.0.0))
+This C# Markup 2 Presentation project was created with `dotnet new mcs-uno-markup2 --presentation none` (template version [`Modern.CSharp.Templates 3.1.0`](https://www.nuget.org/packages/Modern.CSharp.Templates/3.1.0))
 
 ## Get Started
 
@@ -27,7 +27,7 @@ To start working with the C# Markup 2 project, follow these steps:
    Host = await builder.NavigateAsync<CsMarkup2Example.Shell>(async (_, navigator) => await navigator.NavigateViewAsync<CsMarkup2Example.MainPage>(this));
    ```
 
-3. **Rebuild** the `AppProjectFolderName.Windows` project and run it
+3. **Rebuild** the `AppProjectFolderName` project and run it
    (the rebuild is to ensure that the Windows codegen for new pages has run; without that codegen you will get an exception on page display).
 
    Note that as of this writing the `UnoApp` template for `--presentation none` does not compile; if you get compile errors from Uno template code, you can remove the `App.RegisterRoutes` method and the `Presentation` folder from the `AppProjectFolderName` project.

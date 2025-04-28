@@ -15,8 +15,8 @@
     "modern",
     "csharp",
     "C#",
-    "csharp 12",
-    "C# 12",
+    "csharp 13",
+    "C# 13",
     "Multi-platform",
     "Uno Platform",
     "Android",
@@ -61,13 +61,18 @@
       "datatype": "choice",
       "enableQuotelessLiterals": true,
       "replaces": "$baseTargetFramework$",
-      "defaultValue": "net8.0",
+      "defaultValue": "net9.0",
       "description": "Select the .NET version of your solution",
       "choices": [
         {
           "choice": "net8.0",
           "displayName": ".NET 8.0",
           "description": "Target .NET 8.0 (Long Term Support)"
+        },
+        {
+          "choice": "net9.0",
+          "displayName": ".NET 9.0",
+          "description": "Target .NET 9.0 (Standard Term Support)"
         }
       ]
     },
