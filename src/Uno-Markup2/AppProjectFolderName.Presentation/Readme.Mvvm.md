@@ -34,7 +34,7 @@ To start working with the C# Markup 2 project, follow these steps:
 You can use `New-View.ps1` (located in the `AppProjectFolderName.Presentation` project folder) to quickly add new views - including (view)model, if applicable. See `New-View.ps1` for tips and parameters.
 
 ## C# Hot Reload - Automatic & Manual
-Enjoy the fastest and most stable C# Hot Reload, with automatic UI updates, by debugging the **Unpackaged** Windows target. This is a good reason to keep the Windows target even if you don't deploy it.
+Enjoy the fastest and most stable C# Hot Reload, with automatic UI updates, by debugging the **Desktop** target. This is a good reason to keep the Desktop target even if you don't deploy it.
 
 C# Hot Reload does work to some extent in more target platforms, however the UI does not yet update automatically in all platforms, due to issues in Visual Studio.
 
