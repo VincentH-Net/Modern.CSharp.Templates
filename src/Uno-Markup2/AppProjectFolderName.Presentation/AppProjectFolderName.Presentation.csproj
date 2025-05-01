@@ -3,7 +3,7 @@
     <RootNamespace>$namespacePrefix$.Presentation</RootNamespace>
 
     <!-- TODO: replace below TargetFrameworks element with the TargetFrameworks element(s) from AppProjectFolderName.csproj -->
-    <TargetFrameworks>$baseTargetFramework$-ios;$baseTargetFramework$-maccatalyst;$baseTargetFramework$-android;$baseTargetFramework$-windows10.0.26100;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
+    <TargetFrameworks>$baseTargetFramework$-android;$baseTargetFramework$-ios;$baseTargetFramework$-maccatalyst;$baseTargetFramework$-windows10.0.26100;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
 
     <UnoSingleProject>true</UnoSingleProject>
     <OutputType>Library</OutputType>
