@@ -1,19 +1,19 @@
-﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 13/12/11, .NET 9/8/7, Microsoft Orleans 9, Windows App SDK and Uno Platform
+﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 13/12, .NET 9/8, Microsoft Orleans 9, Windows App SDK and Uno Platform
 
 Templates:
 - **mcs-editorconfig** [doc](https://github.com/VincentH-Net/Modern.CSharp.Templates/blob/main/Editorconfig.md)
 
   *Settings for C# 13 code formatting, style, naming style and analysis.
 Promotes conciseness, readability and leveraging the latest language features.
-(can also be used with C# 12/11/10)*
+(can also be used with C# 10-12)*
 
 - **mcs-uno-markup2** [doc](https://github.com/VincentH-Net/CSharpForMarkup#readme)
 
-  *Project that adds concise C# Markup 2 to a Uno Platform 5.2 Solution (.NET 8/7)*
+  *Project that adds concise C# Markup 2 to a Uno Platform 5.6 Solution (.NET 9/8)*
 
 - **mcs-uno-view** [doc](https://github.com/VincentH-Net/CSharpForMarkup#readme)
 
-  *C# Markup 2 View + Model item template for use with mcs-uno-markup2 template (.NET 8/7, model type MVUX/MVVM/none)*
+  *C# Markup 2 View + Model item template for use with mcs-uno-markup2 template (.NET 9/8, model type MVUX/MVVM/none)*
 
 - **mcs-orleans-results** [doc](https://github.com/VincentH-Net/Orleans.Results#readme)
 
