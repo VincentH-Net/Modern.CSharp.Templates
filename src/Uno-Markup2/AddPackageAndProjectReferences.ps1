@@ -9,8 +9,6 @@ $packages = @(
     @{Name="CSharpMarkup.WinUI.Uno.Extensions.Navigation.Toolkit"},
 #if(presentation == 'mvux')
     @{Name="CSharpMarkup.WinUI.Uno.Extensions.Reactive"},
-    @{Name="Uno.Extensions.Reactive.WinUI"; Version="5.2.7"},
-    # The Uno.Extensions.Reactive.WinUI version is aligned to the version that is implicitly referenced by the uno.sdk version that is used in dotnet new unoapp
 #endif
 #if(presentation == 'mvvm')
     @{Name="CommunityToolkit.Mvvm"},

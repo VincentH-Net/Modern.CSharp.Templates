@@ -1,20 +1,17 @@
 ﻿<Project Sdk="Uno.Sdk">
   <PropertyGroup>
-    <RootNamespace>$namespacePrefix$.Presentation</RootNamespace>
-
     <!-- TODO: replace below TargetFrameworks element with the TargetFrameworks element(s) from AppProjectFolderName.csproj -->
-    <TargetFrameworks>$baseTargetFramework$-android;$baseTargetFramework$-ios;$baseTargetFramework$-maccatalyst;$baseTargetFramework$-windows10.0.26100;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
+    <TargetFrameworks>$baseTargetFramework$-android;$baseTargetFramework$-ios;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
 
     <UnoSingleProject>true</UnoSingleProject>
     <OutputType>Library</OutputType>
-
     <!-- Ensures the .xr.xml files are generated in a proper layout folder -->
     <GenerateLibraryLayout>true</GenerateLibraryLayout>
-
     <!-- Disable implicit usings to avoid ambiguities between types in Uno and CSharpMarkup.WinUI.Uno -->
     <ImplicitUsings>disable</ImplicitUsings>
-
     <Nullable>enable</Nullable>
+    <UnoFeatures>$featureMVUX$$featureSkiaRenderer$</UnoFeatures>
+    <RootNamespace>$namespacePrefix$.Presentation</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

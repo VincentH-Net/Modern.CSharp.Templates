@@ -65,11 +65,6 @@
       "description": "Select the .NET version of your solution",
       "choices": [
         {
-          "choice": "net8.0",
-          "displayName": ".NET 8.0",
-          "description": "Target .NET 8.0 (Long Term Support)"
-        },
-        {
           "choice": "net9.0",
           "displayName": ".NET 9.0",
           "description": "Target .NET 9.0 (Standard Term Support)"
@@ -100,6 +95,63 @@
           "displayName": "MVUX"
         }
       ]
+    },
+    "featureMVUX": {
+      "type": "generated",
+      "generator": "switch",
+      "parameters": {
+        "evaluator": "C++",
+        "datatype": "string",
+        "cases": [
+          {
+            "condition": "(presentation == 'mvux')",
+            "value": "MVUX;"
+          },
+          {
+            "condition": "(true)",
+            "value": ""
+          }
+        ]
+      },
+      "replaces": "$featureMVUX$"
+    },
+    "renderer": {
+      "displayName": "Renderer",
+      "description": "Controls the renderer used for iOS, Android, and WebAssembly targets",
+      "type": "parameter",
+      "datatype": "choice",
+      "isRequired": true,
+      "choices": [
+        {
+          "choice": "skia",
+          "description": "Use Skia based rendering for mobile and web",
+          "displayName": "Skia"
+        },
+        {
+          "choice": "native",
+          "description": "Use native APIs based renderer",
+          "displayName": "Native"
+        }
+      ]
+    },
+    "featureSkiaRenderer": {
+      "type": "generated",
+      "generator": "switch",
+      "parameters": {
+        "evaluator": "C++",
+        "datatype": "string",
+        "cases": [
+          {
+            "condition": "(renderer == 'skia')",
+            "value": "SkiaRenderer;"
+          },
+          {
+            "condition": "(true)",
+            "value": ""
+          }
+        ]
+      },
+      "replaces": "$featureSkiaRenderer$"
     }
   },
 

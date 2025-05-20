@@ -4,10 +4,7 @@ partial class SecondPage
 {
     public void BuildUI() => Content (
         Grid (
-            NavigationBar("Second Page")
-               .MainCommand(
-                   AppBarButton() .Icon(Icon("Images/back"))
-               ),
+            NavigationBar("Second Page"),
 
             TextBlock()
                .Bind(vm?.Entity.Name)

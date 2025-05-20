@@ -12,9 +12,6 @@ partial class ViewNamePage
             ),
 
             NavigationBar("ViewName")
-               .MainCommand(
-                   AppBarButton() .Icon(Icon("Images/back"))
-               )
                .Grid_Row(Row.Header),
 
             TextBlock()
