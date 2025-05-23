@@ -8,7 +8,7 @@ public partial class MainViewModel(IStringLocalizer localizer, INavigator naviga
 
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(ButtonText))]
-    string? name;
+    public partial string? Name { get; set; }
 
     // Example of a calculated property
     public string ButtonText => "Go to Second Page " + (string.IsNullOrWhiteSpace(Name) ? "anonymously" : $"as {Name}");

@@ -10,9 +10,6 @@ $packages = @(
 #if(presentation == 'mvux')
     @{Name="CSharpMarkup.WinUI.Uno.Extensions.Reactive"},
 #endif
-#if(presentation == 'mvvm')
-    @{Name="CommunityToolkit.Mvvm"},
-#endif
     @{Name="CSharpMarkup.WinUI.Uno.Toolkit"}
 )
 

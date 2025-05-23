@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>Modern.CSharp.Templates</PackageId>
-        <PackageVersion>3.1.0</PackageVersion> <!-- NOTE update this version in .md files manually -->
+        <PackageVersion>3.2.0</PackageVersion> <!-- // Keep identical to the packageVersion symbol in all templates.json files, and it as a release tag in GitHub -->
         <PackageType>Template</PackageType>
         <Title>Modern C# 13/12 Templates</Title>
         <Description>A toolkit of modern dotnet new templates for C# 13/12, .NET 9/8, Microsoft Orleans 9, Windows App SDK and Uno Platform</Description>

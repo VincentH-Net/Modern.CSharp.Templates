@@ -14,7 +14,7 @@ public static class Routes
             new RouteMap("", View: views.FindByView<Shell>(),
                 Nested: new RouteMap[]
                 {
-                    new RouteMap("Main", View: views.FindByView<MainPage>()),
+                    new RouteMap("Main", View: views.FindByView<MainPage>(), IsDefault:true),
                     new RouteMap("Second", View: views.FindByView<SecondPage>()),
                 }
             )

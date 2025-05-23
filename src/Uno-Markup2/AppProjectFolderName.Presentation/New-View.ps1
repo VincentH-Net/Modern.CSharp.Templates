@@ -9,7 +9,7 @@ Param(
 
     [Parameter(HelpMessage="Select the update pattern to use for this view")]
     [ValidateSet("none", "mvvm", "mvux")]
-    [string]$Presentation = "$architecture$"
+    [string]$Presentation = "$presentation$"
 )
 
 $SubNamespace = ""

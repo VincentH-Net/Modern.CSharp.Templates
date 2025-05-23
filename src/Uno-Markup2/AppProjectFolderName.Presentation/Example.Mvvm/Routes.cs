@@ -14,7 +14,7 @@ public static class Routes
             new RouteMap("", View: views.FindByViewModel<ShellViewModel>(),
                 Nested: new RouteMap[]
                 {
-                    new RouteMap("Main", View: views.FindByViewModel<MainViewModel>()),
+                    new RouteMap("Main", View: views.FindByViewModel<MainViewModel>(), IsDefault:true),
                     new RouteMap("Second", View: views.FindByViewModel<SecondViewModel>())
                 }
             )

@@ -40,6 +40,12 @@
   },
 
   "symbols": {
+    "packageVersion": {
+      "type": "generated",
+      "generator": "constant",
+      "parameters": { "value": "3.2.0" }, // Keep identical to the PackageVersion in Modern.CSharp.Templates.csproj
+      "replaces": "$PackageVersion$"
+    },
     "appRootNamespace": {
       "displayName": "App Root Namespace",
       "type": "parameter",
@@ -76,7 +82,7 @@
       "description": "Select the design pattern for your application",
       "type": "parameter",
       "datatype": "choice",
-      "replaces": "$architecture$",
+      "replaces": "$presentation$",
       "isRequired": true,
       "choices": [
         {
@@ -96,7 +102,7 @@
         }
       ]
     },
-    "featureMVUX": {
+    "featurePresentation": {
       "type": "generated",
       "generator": "switch",
       "parameters": {
@@ -108,18 +114,23 @@
             "value": "MVUX;"
           },
           {
+            "condition": "(presentation == 'mvvm')",
+            "value": "Mvvm;"
+          },
+          {
             "condition": "(true)",
             "value": ""
           }
         ]
       },
-      "replaces": "$featureMVUX$"
+      "replaces": "$featurePresentation$"
     },
     "renderer": {
       "displayName": "Renderer",
       "description": "Controls the renderer used for iOS, Android, and WebAssembly targets",
       "type": "parameter",
       "datatype": "choice",
+      "replaces": "$renderer$",
       "isRequired": true,
       "choices": [
         {

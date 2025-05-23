@@ -2,5 +2,5 @@
 
 public partial class ViewNameViewModel(string message = "NJoy concise C# Markup 2 for Uno Platform") : BaseViewModel
 {
-    [ObservableProperty] string message = message;
+    [ObservableProperty] public partial string Message { get; set; } = message;
 }

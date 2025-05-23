@@ -1,8 +1,13 @@
 ﻿<Project Sdk="Uno.Sdk">
   <PropertyGroup>
     <!-- TODO: replace below TargetFrameworks element with the TargetFrameworks element(s) from AppProjectFolderName.csproj -->
-    <TargetFrameworks>$baseTargetFramework$-android;$baseTargetFramework$-ios;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
+    <TargetFrameworks>$baseTargetFramework$-android;$baseTargetFramework$-ios;$baseTargetFramework$-windows10.0.26100;$baseTargetFramework$-browserwasm;$baseTargetFramework$-desktop</TargetFrameworks>
 
+<!--#if(presentation == 'mvvm')-->
+    <!-- Required for C# 13 to use partial properties with CommunityToolkit.Mvvm -->
+    <LangVersion>Preview</LangVersion>
+
+<!--#endif-->
     <UnoSingleProject>true</UnoSingleProject>
     <OutputType>Library</OutputType>
     <!-- Ensures the .xr.xml files are generated in a proper layout folder -->
@@ -10,7 +15,7 @@
     <!-- Disable implicit usings to avoid ambiguities between types in Uno and CSharpMarkup.WinUI.Uno -->
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UnoFeatures>$featureMVUX$$featureSkiaRenderer$</UnoFeatures>
+    <UnoFeatures>$featurePresentation$$featureSkiaRenderer$</UnoFeatures>
     <RootNamespace>$namespacePrefix$.Presentation</RootNamespace>
   </PropertyGroup>
 

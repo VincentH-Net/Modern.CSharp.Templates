@@ -1,6 +1,6 @@
 ﻿# Welcome to C# Markup 2 for Uno Platform
 
-This C# Markup 2 Presentation project was created with `dotnet new mcs-uno-markup2 --presentation mvvm` (template version [`Modern.CSharp.Templates 3.1.0`](https://www.nuget.org/packages/Modern.CSharp.Templates/3.1.0))
+This C# Markup 2 Presentation project was created with `dotnet new mcs-uno-markup2 --presentation $presentation$ --renderer $renderer$` (template version [`Modern.CSharp.Templates $PackageVersion$`](https://www.nuget.org/packages/Modern.CSharp.Templates/$PackageVersion$))
 
 ## Get Started
 
@@ -27,8 +27,10 @@ To start working with the C# Markup 2 project, follow these steps:
    Host = await builder.NavigateAsync<CsMarkup2Example.Shell>();
    ```
 
-3. **Rebuild** the `AppProjectFolderName` project and run it
+3. If you target Windows native (WinAppSDK), **Rebuild** the `AppProjectFolderName` project
    (the rebuild is to ensure that the Windows codegen for new pages has run; without that codegen you will get an exception on page display).
+
+4. Run the `AppProjectFolderName` project
 
 ## Add views and (view)models
 You can use `New-View.ps1` (located in the `AppProjectFolderName.Presentation` project folder) to quickly add new views - including (view)model, if applicable. See `New-View.ps1` for tips and parameters.

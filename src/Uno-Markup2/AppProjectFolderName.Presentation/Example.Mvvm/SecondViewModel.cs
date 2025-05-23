@@ -2,7 +2,7 @@
 
 public partial class SecondViewModel(Entity entity) : BaseViewModel
 {
-    [ObservableProperty] Entity entity = entity;
+    [ObservableProperty] public partial Entity Entity { get; set; } = entity;
 }
 
 public record Entity(string Name);
