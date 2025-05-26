@@ -43,7 +43,7 @@
     "packageVersion": {
       "type": "generated",
       "generator": "constant",
-      "parameters": { "value": "3.2.0" }, // Keep identical to the PackageVersion in Modern.CSharp.Templates.csproj
+      "parameters": { "value": "3.2.1" }, // Keep identical to the PackageVersion in Modern.CSharp.Templates.csproj
       "replaces": "$PackageVersion$"
     },
     "appRootNamespace": {
