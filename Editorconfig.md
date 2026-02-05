@@ -1,8 +1,8 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates - Editorconfig
 
-Complete settings for C# 13 code formatting, style, naming style and analysis.
+Complete settings for C# 14 code formatting, style, naming style and analysis.
 Promotes conciseness, readability and leveraging the latest language features.
-(can also be used with C# 10 - 12)
+(can also be used with C# 10 - 13)
 
 Noteworthy: the naming styles do *not* allow an underscore prefix for private fields.
 

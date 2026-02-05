@@ -1,11 +1,11 @@
-﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 13/12, .NET 9/8, Microsoft Orleans 9, Windows App SDK and Uno Platform
+﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14/13, .NET 10/9, Microsoft Orleans 9, Windows App SDK and Uno Platform
 
 Templates:
 - **mcs-editorconfig** [doc](https://github.com/VincentH-Net/Modern.CSharp.Templates/blob/main/Editorconfig.md)
 
-  *Settings for C# 13 code formatting, style, naming style and analysis.
+  *Settings for C# 14 code formatting, style, naming style and analysis.
 Promotes conciseness, readability and leveraging the latest language features.
-(can also be used with C# 10-12)*
+(can also be used with C# 10-13)*
 
 - **mcs-uno-markup2** [doc](https://github.com/VincentH-Net/CSharpForMarkup#readme)
 
