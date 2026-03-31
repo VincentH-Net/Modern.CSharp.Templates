@@ -1,4 +1,4 @@
-﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14/13, .NET 10/9, Microsoft Orleans 9, Windows App SDK and Uno Platform
+﻿A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14, .NET 10, Microsoft Orleans 10, Windows App SDK and Uno Platform
 
 Templates:
 - **mcs-editorconfig** [doc](https://github.com/VincentH-Net/Modern.CSharp.Templates/blob/main/Editorconfig.md)
@@ -17,12 +17,12 @@ Promotes conciseness, readability and leveraging the latest language features.
 
 - **mcs-orleans-results** [doc](https://github.com/VincentH-Net/Orleans.Results#readme)
 
-  *Concise, version-tolerant result pattern implementation for Microsoft Orleans 9/8*
+  *Concise, version-tolerant result pattern implementation for Microsoft Orleans 8 or later*
 
 - **mcs-orleans-multiservice** [doc](https://github.com/VincentH-Net/Orleans.Multiservice#readme)
 
-  *Prevent microservices pain with logical service separation for Microsoft Orleans 9*
+  *Prevent microservices pain with logical service separation for Microsoft Orleans 10*
 
-The Orleans templates can be combined with [Orleans.Multitenant](https://github.com/VincentH-Net/Orleans.Multitenant) for secure, flexible tenant separation in Microsoft Orleans 9
+The Orleans templates can be combined with [Orleans.Multitenant](https://github.com/VincentH-Net/Orleans.Multitenant) for secure, flexible tenant separation in Microsoft Orleans 10
 
 [Release Notes](https://github.com/VincentH-Net/Modern.CSharp.Templates/releases/tag/3-2-1)
