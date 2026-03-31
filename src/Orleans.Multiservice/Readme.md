@@ -8,3 +8,8 @@ This solution follows the [Multiservice pattern for Microsoft Orleans](https://g
 See the [pattern rules](https://github.com/VincentH-Net/Orleans.Multiservice#pattern-rules) for how to structure code in this solution (this will be supported by automation in a later template version).
 
 Use [`AddLogicalService.ps1 <name>`](AddLogicalService.ps1) to add more logical services to the solution.
+
+## Current template baseline
+This template currently targets:
+- .NET 10
+- Microsoft Orleans 10

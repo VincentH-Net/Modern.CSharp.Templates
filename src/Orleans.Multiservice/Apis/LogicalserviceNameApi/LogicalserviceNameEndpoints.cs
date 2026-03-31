@@ -2,7 +2,7 @@
 
 namespace RootNamespacePrefix.Apis.LogicalserviceNameApi;
 
-public class LogicalserviceNameEndpoints(IClusterClient orleans) : IEndpoints
+sealed class LogicalserviceNameEndpoints(IClusterClient orleans) : IEndpoints
 {
     readonly IItemsGrain itemsGrain = orleans.GetGrain<IItemsGrain>("all");
 

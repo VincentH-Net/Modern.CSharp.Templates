@@ -5,10 +5,10 @@
     "modern",
     "csharp",
     "C#",
-    "csharp 13",
-    "C# 13",
+    "csharp 14",
+    "C# 14",
     "Orleans",
-    "Orleans 9",
+    "Orleans 10",
     "multiservice",
     "logical service",
     "microservice",
@@ -16,9 +16,9 @@
     "pattern"
   ],
   "identity": "Modern.CSharp.Orleans.Multiservice",
-  "name": "Modern C# 13 multiservice pattern for Orleans 9",
+  "name": "Modern C# 14 multiservice pattern for Orleans 10",
   "shortName": "mcs-orleans-multiservice",
-  "description": "Solution for a single Microsoft Orleans 9 (micro)service containing one or more logical services",
+  "description": "Solution for a single Microsoft Orleans 10 (micro)service containing one or more logical services",
   "tags": {
     "language": "C#",
     "type": "solution"
@@ -98,7 +98,7 @@
       "manualInstructions": [ { "text": "Manually add a reference to the generated service project in the Apis project" } ],
       "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
       "args": {
-        "executable": "powershell",
+        "executable": "pwsh",
         "args": "-file TemplatePostAction.ps1",
         "redirectStandardError": false,
         "redirectStandardOutput": false
