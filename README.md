@@ -1,5 +1,5 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates
-A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14, .NET 10, Microsoft Orleans 10, Windows App SDK and Uno Platform 5.6
+A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14, .NET 10, Microsoft Orleans 10, Windows App SDK and Uno Platform 6
 
 _(Note: this repo was transferred from Applicita to VincentH-Net on March 17, 2025 to reflect who actively maintains it)_
 
@@ -10,10 +10,10 @@ Promotes conciseness, readability and leveraging the latest language features.
 (can also be used with C# 10 - 13)*
 
 - **mcs-uno-markup2** [doc](https://github.com/VincentH-Net/CSharpForMarkup#readme)<br />
-  *Project that adds concise C# Markup 2 to a Uno Platform 5.6 Solution (.NET 9/8)*
+  *Project that adds concise C# Markup 2 to a Uno Platform 6 Solution (.NET 10/9)*
 
 - **mcs-uno-view** [doc](https://github.com/VincentH-Net/CSharpForMarkup#readme)<br />
-  *C# Markup 2 View + Model item template for use with mcs-uno-markup2 template (.NET 9/8, model type MVUX/MVVM/none)*
+  *C# Markup 2 View + Model item template for use with mcs-uno-markup2 template (.NET 10/9, model type MVUX/MVVM/none)*
 
 - **mcs-orleans-results** [doc](https://github.com/VincentH-Net/Orleans.Results#readme)<br />
   *Concise, version-tolerant result pattern implementation for Microsoft Orleans 8 or later*
