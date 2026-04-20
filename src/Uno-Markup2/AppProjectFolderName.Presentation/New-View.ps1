@@ -1,6 +1,6 @@
 ﻿# Tip: to use in Visual Studio: 
 # 1) In solution explorer, right-click the AppProjectFolderName.Presentation project and select "Open in Terminal"
-# 2) In the terminal window, type "new" + TAB to expand to ".\New-View.ps1", followed by the view name
+# 2) In the terminal window, type "./New" or ".\New" if in PowerShell or else "pwsh New" + TAB to expand to "New-View.ps1", followed by the view name
 
 Param(
     [Parameter(Mandatory, HelpMessage="The view name ('Page' suffix will be added, use dots to add subnamespaces and subfolders)")]

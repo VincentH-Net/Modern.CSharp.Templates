@@ -67,13 +67,18 @@
       "datatype": "choice",
       "enableQuotelessLiterals": true,
       "replaces": "$baseTargetFramework$",
-      "defaultValue": "net9.0",
+      "defaultValue": "net10.0",
       "description": "Select the .NET version of your solution",
       "choices": [
         {
           "choice": "net9.0",
           "displayName": ".NET 9.0",
           "description": "Target .NET 9.0 (Standard Term Support)"
+        },
+        {
+          "choice": "net10.0",
+          "displayName": ".NET 10.0",
+          "description": "Target .NET 10.0 (Long Term Support)"
         }
       ]
     },
@@ -223,7 +228,7 @@
       "manualInstructions": [ { "text": "Manually execute the commands in AddPackageAndProjectReferences.ps1" } ],
       "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
       "args": {
-        "executable": "powershell",
+        "executable": "pwsh",
         "args": "-file AddPackageAndProjectReferences.ps1",
         "redirectStandardError": false,
         "redirectStandardOutput": false
