@@ -1,6 +1,9 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates
 A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14, .NET 10, Microsoft Orleans 10, Windows App SDK and Uno Platform 6
 
+> [!NOTE]
+> You can get **agentic engineering** support for all these templates and their corresponding libraries, with the skills and directives in [.NET Agentic Engineering](https://github.com/VincentH-Net/dotnet-agentic-engineering)
+
 _(Note: this repo was transferred from Applicita to VincentH-Net on March 17, 2025 to reflect who actively maintains it)_
 
 Templates:
@@ -22,9 +25,6 @@ Promotes conciseness, readability and leveraging the latest language features.
   *Prevent microservices pain with logical service separation for Microsoft Orleans 10*
 
 The Orleans templates can be combined with [Orleans.Multitenant](https://github.com/VincentH-Net/Orleans.Multitenant) for secure, flexible tenant separation in Microsoft Orleans 10
-
-> [!NOTE]
-> Get **agentic engineering** support for all these templates and their corresponding libraries, with the skills and directives in [.NET Agentic Engineering](https://github.com/VincentH-Net/dotnet-agentic-engineering)
 
 For how to install, see:<br />
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Modern.CSharp.Templates?color=gold&label=NuGet:%20Modern.CSharp.Templates&style=plastic)](https://www.nuget.org/packages/Modern.CSharp.Templates)
