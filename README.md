@@ -23,6 +23,7 @@ Promotes conciseness, readability and leveraging the latest language features.
 
 The Orleans templates can be combined with [Orleans.Multitenant](https://github.com/VincentH-Net/Orleans.Multitenant) for secure, flexible tenant separation in Microsoft Orleans 10
 
+> [!TIP]
 > NEW! Get **agentic engineering** support for all these templates and their corresponding libraries, with the skills and directives in [.NET Agentic Engineering](https://github.com/VincentH-Net/dotnet-agentic-engineering)
 
 For how to install, see:<br />
