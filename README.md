@@ -1,7 +1,7 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates
 A toolkit of modern [dotnet new templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) for C# 14, .NET 10, Microsoft Orleans 10, Windows App SDK and Uno Platform 6
 
-> [!NOTE]
+> [!TIP]
 > You can get **agentic engineering** support for all these templates and their corresponding libraries, with the skills and directives in [.NET Agentic Engineering](https://github.com/VincentH-Net/dotnet-agentic-engineering)
 
 _(Note: this repo was transferred from Applicita to VincentH-Net on March 17, 2025 to reflect who actively maintains it)_
