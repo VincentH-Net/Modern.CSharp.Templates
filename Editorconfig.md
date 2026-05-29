@@ -1,5 +1,8 @@
 ﻿# <img src="src/CSharp-Toolkit-Icon.png" alt="C# Toolkit" width="64px" /> Modern.CSharp.Templates - Editorconfig
 
+> [!TIP]
+> You can get **agentic engineering** support to let agents use this template in [.NET Agentic Engineering](https://github.com/VincentH-Net/dotnet-agentic-engineering)
+
 Complete settings for C# 14 code formatting, style, naming style and analysis.
 Promotes conciseness, readability and leveraging the latest language features.
 (can also be used with C# 10 - 13)
